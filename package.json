@@ -1,0 +1,31 @@
+{
+  "name": "ng-ts-template",
+  "version": "0.1.0",
+  "description": "Creates a template for a SPA with Angular 1.x, requirejs, typescript and bootstrap.",
+  "main": "main.ts",
+  "scripts": {
+    "postinstall": "bower install && typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/prncher/ng-ts-template"
+  },
+  "keywords": [
+    "AngularJS",
+    "TypeScript",
+    "RequireJS",
+    "Bootstrap",
+    "JQuery"
+  ],
+  "author": "Prince Cheruvatur",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-typescript": "^0.8.0",
+    "typescript": "^1.8.10",
+    "typings": "^0.7.12"
+  },
+  "dependencies": {
+    "grunt-cli": "^1.2.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ng-ts-template",
+  "version": true,
+  "dependencies": {
+    "es6-promise": "registry:npm/es6-promise#3.0.0+20160211003958"
+  },
+  "ambientDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160412133217",
+    "angular-route": "registry:dt/angular-route#1.3.0+20160317120654",
+    "bootstrap": "registry:dt/bootstrap#3.3.5+20160316155526",
+    "jquery": "registry:dt/jquery#1.10.0+20160316155526",
+    "require": "registry:dt/require#2.1.20+20160316155526"
+  },
+  "exclude": [
+    "node_modules",
+    "typings/browser.d.ts",
+    "typings/browser"
+  ]
+}

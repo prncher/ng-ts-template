@@ -1,0 +1,35 @@
+{
+  "name": "ng-ts-template",
+  "description": "Creates a template for a SPA with Angular 1.x, requirejs, typescript and bootstrap.",
+  "main": "main.ts",
+  "keywords": [
+    "AngularJS",
+    "TypeScript",
+    "RequireJS",
+    "Bootstrap",
+    "JQuery"
+  ],
+  "authors": [
+    "Prince Cheruvathur"
+  ],
+  "license": "MIT",
+  "homepage": "github.com/prncher/ng-ts-template",
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "typings",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">1.4",
+    "angular-route": ">1.4",
+    "bootstrap": ">3.3",
+    "jquery": ">2.2",
+    "requirejs": ">2.1"
+  },
+  "resolutions": {
+    "jquery": "1.9.1 - 2"
+  }
+}
