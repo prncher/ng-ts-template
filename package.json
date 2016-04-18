@@ -2,7 +2,7 @@
   "name": "ng-ts-template",
   "version": "0.1.0",
   "description": "Creates a template for a SPA with Angular 1.x, requirejs, typescript and bootstrap.",
-  "main": "main.ts",
+  "main": "Scripts/main.js",
   "scripts": {
     "postinstall": "bower install && typings install"
   },
@@ -17,7 +17,10 @@
     "Bootstrap",
     "JQuery"
   ],
-  "author": "Prince Cheruvatur",
+  "author": {
+    "name": "Prince Cheruvatur",
+    "email": "prncher@gmail.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "grunt": "^1.0.1",
