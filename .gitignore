@@ -47,6 +47,6 @@ Temporary Items
 .apdisk
 
 # Directories not required.
-/bower_components/
-/node_modules/
-/typings/
+bower_components/
+node_modules/
+typings/
