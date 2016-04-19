@@ -23,7 +23,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "grunt-cli": "^1.2.0",
     "grunt": "^1.0.1",
     "grunt-typescript": "^0.8.0",
     "typescript": "^1.8.10",
