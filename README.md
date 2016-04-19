@@ -3,11 +3,18 @@ ng-ts-template
 
 ## Documentation
 
-bower install ng-ts-template
+Follow the steps below to have the template in a working status.
 
-npm install  - This will install everything required for a typescript angularjs (< 2.0) AMD source code.
+1. Install Git and npm if you haven't done yet.
+2. install bower by "npm install bower -g"
+3. Install grunt client by "npm install grunt-cli -g"
+4. git clone https://github.com/prncher/ng-ts-template
 
-grunt - This will build the code.
+5. Change to the ng-ts-template folder.
+
+6. npm install  - This will install everything required for a typescript angularjs (< 2.0) AMD source code.
+
+7. grunt - This will build the code.
 
 Open the "index.html" in a browser.
 
