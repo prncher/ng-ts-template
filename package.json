@@ -4,7 +4,8 @@
   "description": "Creates a template for a SPA with Angular 1.x, requirejs, typescript and bootstrap.",
   "main": "Scripts/main.js",
   "scripts": {
-    "postinstall": "bower install && typings install"
+    "postinstall": "bower install && typings install",
+    "test": "karma start ./karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,16 @@
   "dependencies": {
     "grunt": "^1.0.1",
     "grunt-typescript": "^0.8.0",
+    "jasmine-core": "^2.4.1",
+    "karma": ">=0.9",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.8",
+    "karma-requirejs": "^0.2.6",
     "typescript": "^1.8.10",
     "typings": "^0.7.12"
+  },
+  "devDependencies": {
+    "requirejs": "^2.1.0"
   }
 }

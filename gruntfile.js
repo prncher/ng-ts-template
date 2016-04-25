@@ -1,8 +1,10 @@
 module.exports = function (grunt) {
 
     grunt.registerMultiTask('cleanjs', 'Log stuff.', function () {
-        grunt.file.recurse(this.data, function (abspath, rootdir, subdir, filename) {
-            if (filename) {
+	var options = this.data;
+        grunt.file.recurse(options.folder, function (abspath, rootdir, subdir, filename) {
+            var toDelete = !abspath.startsWith(options.exclude);
+            if (filename && toDelete) {
                 var ext = filename.split('.')[1];
                 if (ext == 'js') {
                     var message = 'Deleting ' + filename;
@@ -15,7 +17,7 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         cleanjs: {
-            folder: "Scripts"
+            folder: { "folder" : "Scripts", "exclude" : "Scripts/test" }
         },
         typescript: {
             base: {
