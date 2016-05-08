@@ -16,7 +16,8 @@
     "TypeScript",
     "RequireJS",
     "Bootstrap",
-    "JQuery"
+    "JQuery",
+    "Protractor"
   ],
   "author": {
     "name": "Prince Cheruvatur",
@@ -33,7 +34,8 @@
     "karma-jasmine": "^0.3.8",
     "karma-requirejs": "^0.2.6",
     "typescript": "^1.8.10",
-    "typings": "^0.7.12"
+    "typings": "^0.7.12",
+    "protractor": "*"
   },
   "devDependencies": {
     "requirejs": "^2.1.0"

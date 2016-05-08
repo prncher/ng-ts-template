@@ -12,8 +12,7 @@ require.config({
 		ngRoute: 'bower_components/angular-route/angular-route',
 		angularMocks: 'bower_components/angular-mocks/angular-mocks',
 		app:'Scripts/appScripts/app',
-		controller:'Scripts/appScripts/controller',
-		text: '../app/bower_components/requirejs-text/text'
+		controller:'Scripts/appScripts/controller'
 	},
 	shim: {
 		'angular' : {'exports' : 'angular'},
