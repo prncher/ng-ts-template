@@ -22,7 +22,7 @@ module.exports = function(config) {
       {pattern: 'Scripts/appScripts/app.js', included: false},
       {pattern: 'Scripts/appScripts/controller.js', included: false},
       // needs to be last http://karma-runner.github.io/0.12/plus/requirejs.html
-      'Scripts/test/test.config.js'
+      'Scripts/dist/test/test.config.js'
     ],
 
     // list of files to exclude
@@ -33,7 +33,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-	"Scripts/**/*.js" : 'coverage'
+	"Scripts/dist/**/*.js" : 'coverage'
     },
 
 
