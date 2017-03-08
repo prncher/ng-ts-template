@@ -24,14 +24,13 @@ Open the url in a browser.
 
 ## unit test
 
-make sure karma is installed (npm install karma -g) 
-npm test
+1. make sure karma is installed (npm install karma -g).
+2. npm test
 
 ## e2e test
 
 Open a command window and do the following.
 
-run "webdriver-manager update"
-run "webdriver-manager start"
-
-Now run "protractor"
+1. run "webdriver-manager update"
+2. run "webdriver-manager start"
+3. Now run "protractor"
