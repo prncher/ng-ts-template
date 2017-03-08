@@ -21,3 +21,17 @@ Open the "index.html" in a browser.
 If this is installed on a linux box, have http-server installed using "npm install http-server"
 Now use http-server <path-where-package-installed>
 Open the url in a browser.
+
+## unit test
+
+make sure karma is installed (npm install karma -g) 
+npm test
+
+## e2e test
+
+Open a command window and do the following.
+
+run "webdriver-manager update"
+run "webdriver-manager start"
+
+Now run "protractor"
