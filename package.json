@@ -16,8 +16,7 @@
     "TypeScript",
     "RequireJS",
     "Bootstrap",
-    "JQuery",
-    "Protractor"
+    "JQuery"
   ],
   "author": {
     "name": "Prince Cheruvatur",
@@ -25,7 +24,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "grunt": "^0.4.5",
+    "grunt": "^1.0.1",
     "grunt-typescript": "^0.8.0",
     "jasmine-core": "^2.5.2",
     "karma": "^1.5.0",
@@ -34,9 +33,8 @@
     "karma-jasmine": "^1.1.0",
     "karma-requirejs": "^1.1.0",
     "protractor": "^5.1.1",
-    "requirejs": "^2.1.22",
     "typescript": "^2.2.1",
-    "typings": "^2.1.0"
+    "typings": "^0.7.12"
   },
   "devDependencies": {
     "requirejs": "^2.3.3"
