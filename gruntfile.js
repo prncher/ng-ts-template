@@ -26,7 +26,7 @@ module.exports = function (grunt) {
                     module: 'amd',
                     target: 'es5',
                     removeComments: true,
-                    references: ["typings/main.d.ts"]
+                    references: ["typings/index.d.ts"]
                 }
             }
         }

@@ -23,11 +23,11 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.6.2",
-    "angular-route": "^1.6.2",
+    "angular": "^1.6.3",
+    "angular-route": "^1.6.3",
     "bootstrap": "^3.3.7",
     "jquery": "^3.1.1",
     "requirejs": "^2.3.3",
-    "angular-mocks": "^1.6.2"
+    "angular-mocks": "^1.6.3"
   }
 }

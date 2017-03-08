@@ -19,8 +19,8 @@ module.exports = function(config) {
       {pattern: 'bower_components/angular-route/angular-route.js', included: false},
       {pattern: 'bower_components/angular-mocks/angular-mocks.js', included: false},
       {pattern: 'Scripts/test/**/*.js', included: false},
-      {pattern: 'Scripts/dist/appScripts/app.js', included: false},
-      {pattern: 'Scripts/dist/appScripts/controller.js', included: false},
+      {pattern: 'Scripts/appScripts/app.js', included: false},
+      {pattern: 'Scripts/appScripts/controller.js', included: false},
       // needs to be last http://karma-runner.github.io/0.12/plus/requirejs.html
       'Scripts/test/test.config.js'
     ],
@@ -33,7 +33,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-	"Scripts/dist/**/*.js" : 'coverage'
+	"Scripts/**/*.js" : 'coverage'
     },
 
 
