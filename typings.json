@@ -4,14 +4,14 @@
   "dependencies": {
     "es6-promise": "registry:npm/es6-promise#3.0.0+20160211003958"
   },
-  "globalDependencies": {
-    "angular": "registry:dt/angular#1.5.0+20160802155123",
+  "ambientDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160412133217",
     "angular-mocks": "registry:dt/angular-mocks#1.3.0+20160412134242",
     "angular-route": "registry:dt/angular-route#1.3.0+20160317120654",
-    "bootstrap": "registry:dt/bootstrap#3.3.5+20160726204056",
-    "jasmine": "registry:dt/jasmine#2.5.0+20170207112528",
-    "jquery": "registry:dt/jquery#1.10.0+20170123093700",
-    "require": "registry:dt/require#2.1.20+20160919185614"
+    "bootstrap": "registry:dt/bootstrap#3.3.5+20160316155526",
+    "jasmine": "registry:dt/jasmine#2.2.0+20160412134438",
+    "jquery": "registry:dt/jquery#1.10.0+20160316155526",
+    "require": "registry:dt/require#2.1.20+20160316155526"
   },
   "exclude": [
     "node_modules",
